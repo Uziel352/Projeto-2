@@ -9,3 +9,11 @@ function gerarNumerosMegaSena(quantidade) {
 
   return numerosUnicos
 }
+
+
+//teste do tempo
+function main(quantidade) {
+  console.time("tempo");
+  gerarNumerosMegaSena(quantidade);
+  console.timeEnd("tempo");
+}
