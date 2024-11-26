@@ -1,0 +1,11 @@
+# Projeto-2
+function gerarNumerosMegaSena(quantidade) {
+  var numerosUnicos = new Set()
+
+  while (numerosUnicos.size < quantidade) {
+    var aleatorio = Math.floor(Math.random() * 60 + 1);
+    numerosUnicos.add(aleatorio); 
+  }
+
+  return numerosUnicos
+}
